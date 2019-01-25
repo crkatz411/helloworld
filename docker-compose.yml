@@ -1,8 +1,9 @@
+#Define how to docker containers should run and scale services
 version: "3"
 services:
-  web:
+  helloworld:
     # replace username/repo:tag with your name and image details
-    image: crkatz/myrepo:1.1
+    image: crkatz/helloworld:1.1
     deploy:
       replicas: 5
       resources:
