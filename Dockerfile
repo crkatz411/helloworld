@@ -11,7 +11,7 @@ WORKDIR /opt/helloworld
 COPY . .
 
 # Install app dependencies
-RUN pip install --upgrade pip
+RUN pip install pip --upgrade
 RUN pip install -r requirements.txt
 
 EXPOSE 5000 
