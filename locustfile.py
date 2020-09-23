@@ -9,9 +9,9 @@ class UserBehavior(TaskSet):
     def index(self):
         self.client.get("/team!")
 
-    @task
-    def index(self):
-        self.client.get("/")
+   # @task
+   # def index(self):
+    #    self.client.get("/")
 
 
 class WebsiteUser(HttpLocust):
